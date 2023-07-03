@@ -1,5 +1,11 @@
 # MM Audio Classification
-An audio classification model library. 
+An audio classification model library containing the following SOTA models: 
++ **Audio Spectrogram Transformer** (AST)
++ **Self-Supervised Audio Spectrogram Transformer** (SSAST)
++ **Hierarchical Token-Semantic Audio Transformer** (HTSAT)
++ **EfficientAT**
++ **Masked Modeling Duo** (M2D)
++ **CNN14**
 
 ## Install
 ```
