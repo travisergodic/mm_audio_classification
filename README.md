@@ -11,7 +11,9 @@ An audio classification model library containing the following SOTA models:
 ```
 python -m venv audio_cls_env
 source audio_cls_env/bin/activate
-cd audio_cls_env/bin/activate/mm_audio_classification
+cd ./audio_cls_env
+git clone https://github.com/travisergodic/mm_audio_classification.git
+cd ./mm_audio_classification
 pip install -r requirements.txt
 ```
 
