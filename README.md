@@ -24,8 +24,8 @@ python tools/test.py --task "evaluate" --config_file <config_file> --data_dir <s
 python tools/test.py --task "inference" --config_file <config_file> --data_dir <source_data_dir> --save_path <save_path>
 ```
 
-## Colab Practice 
-https://colab.research.google.com/drive/1oJ_dvs09nrI1lQ6PHepbt6Rn5BOqhXCW#scrollTo=CoV_uZZN9l9C
+## [Colab Practice](https://colab.research.google.com/drive/1oJ_dvs09nrI1lQ6PHepbt6Rn5BOqhXCW#scrollTo=CoV_uZZN9l9C) 
+
 
 ## Reference
 1. [AST](https://github.com/YuanGongND/ast)
