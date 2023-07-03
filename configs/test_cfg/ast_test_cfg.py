@@ -32,7 +32,7 @@ model_cfg_list = [
     }
 ]
 
-checkpoint_path_list = ['/content/t-brain_sound_classification/checkpoints/e27_0.6500474786346144.pt']
+checkpoint_path_list = ['/content/mm_audio_classification/checkpoints/e75_0.6525208100799085.pt']
 
 # batch transform
 test_transform_cfg_list = [None]
@@ -43,7 +43,7 @@ trainer_cfg_list = [
 ]
 
 # predictor 
-predictor_cfg = {'classes_num': 5, 'activation_list': [nn.Softmax(dim=1)], 'shift_unit': 0, 'shift_num': 0}
+predictor_cfg = {'classes_num': num_classes, 'activation_list': [nn.Softmax(dim=1)], 'shift_unit': 0, 'shift_num': 0}
 
 # metric_list
 metric_list = ["recall_average"]

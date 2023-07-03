@@ -50,7 +50,7 @@ hook_cfg_list = [
     dict(type='TestIterHook'), 
     dict(type='IterBasedEvalHook', iter_period=40), 
     dict(type='WarmupHook', warmup_steps=240, period=40, lr=lr), 
-    dict(type='IterBasedSaveTopkHook', top_k=2, monitor='recall_average', iter_period=50, checkpoint_dir='checkpoints/')
+    dict(type='IterBasedSaveTopkHook', top_k=2, monitor='recall_average', iter_period=50, checkpoint_dir='checkpoints/', save_after=10)
 ]
 
 # model
